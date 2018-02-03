@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:textSize="25sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:layout_gravity="center_horizontal"/>
+
+        <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="260dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/su" />
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/input_your_name"
+            android:layout_gravity="center_horizontal"/>
+
+        <EditText
+            android:id="@+id/name_field"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="@string/name_field"
+            android:inputType="textCapWords"
+            android:textSize="20sp"
+            android:layout_gravity="center_horizontal" />
+
+        <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/welcome_msg"
+        android:layout_gravity="center_horizontal"/>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/first_question"
+            android:layout_gravity="center_horizontal"/>
+
+        <CheckBox
+            android:id="@+id/frisbee_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/frisbee"
+            android:layout_gravity="center_horizontal"/>
+        <CheckBox
+            android:id="@+id/football_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/football"
+            android:layout_gravity="center_horizontal"/>
+        <CheckBox
+            android:id="@+id/agility_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/agility"
+            android:layout_gravity="center_horizontal"/>
+        <CheckBox
+            android:id="@+id/tenis_checkbox"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/tenis"
+            android:layout_gravity="center_horizontal"/>
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/second_question"
+            android:layout_gravity="center_horizontal"/>
+        <RadioGroup
+            android:id="@+id/question_2_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/radio_11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/no"
+                android:layout_gravity="center"
+                tools:ignore="DuplicateIds" />
+            <RadioButton
+                android:id="@+id/radio_12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes_under_the_armpits"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:id="@+id/radio_13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/yes_on_the_bottom_of_the_feet"
+                android:layout_gravity="center"/>
+        </RadioGroup>
+
+        <TextView
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/third_question"
+        android:layout_gravity="center_horizontal"/>
+
+        <RadioGroup
+            android:id="@+id/question_3_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/radio_21"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/watchdog"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:id="@+id/radio_22"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/shepherd_dog"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:id="@+id/radio_23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/guard_dog"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:id="@+id/radio_24"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/just_a_dog_lying_on_the_sofa"
+                android:layout_gravity="center"/>
+        </RadioGroup>
+
+        <TextView
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/fourth_question"
+            android:layout_gravity="center"/>
+
+        <RadioGroup
+            android:id="@+id/question_4_radio_group"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_gravity="center">
+
+            <RadioButton
+                android:id="@+id/radio_31"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="25"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:id="@+id/radio_32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="36,6"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:id="@+id/radio_33"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="38"
+                android:layout_gravity="center"/>
+            <RadioButton
+                android:id="@+id/radio_34"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="42"
+                android:layout_gravity="center"/>
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/quiz_complete_button"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/submit_button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="countPoints"/>
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/reset_button"
+            android:layout_gravity="center_horizontal"
+            android:onClick="reset"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+</ScrollView>

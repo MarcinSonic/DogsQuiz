@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Dogs Quiz</string>
+    <string name="input_your_name">Pierwsze pytanie będzie proste :) podaj swoje imię:</string>
+    <string name="football">Piłka nożna</string>
+    <string name="guard_dog">Psem obronnym</string>
+    <string name="submit_button">Jak mi poszło</string>
+    <string name="second_question">Czy pies się poci ?</string>
+    <string name="just_a_dog_lying_on_the_sofa">Poprostu leży na kanapie</string>
+    <string name="name_field">Wpisz tu swoje imię</string>
+    <string name="reset_button">Zrób jeszcz raz</string>
+    <string name="no">Nie</string>
+    <string name="welcome_msg">Teraz zabawa sięzaczyna :)</string>
+    <string name="shepherd_dog">Psem pasterskim</string>
+    <string name="tenis">Tenis</string>
+    <string name="watchdog">Psem stróżującym</string>
+    <string name="title">Co wiesz o PSACH ?</string>
+    <string name="fourth_question">Jaka jest temperatura ciała psa?</string>
+    <string name="third_question">Czy Boardercolie jest:</string>
+    <string name="first_question">Które z tych sportów są psimi sportami?</string>
+    <string name="yes_on_the_bottom_of_the_feet">Tak, na opuszkach łapek</string>
+    <string name="yes_under_the_armpits">Tak, pod pachami</string>
+    <string name="agility">Agility</string>
+    <string name="frisbee">Frisbee</string>
+    <string name="well_done">świetna robota </string>
+    <string name="your_score"> ! Zdobyłeś punktów </string>
+</resources>

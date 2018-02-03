@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">Dogs Quiz</string>
+    <string name="title">What do you know about DOGS?</string>
+    <string name="input_your_name">First question is easy :) Just tell me your name:</string>
+    <string name="name_field">Just Enter Your Name Here</string>
+    <string name="welcome_msg">Now the fun part starts :)</string>
+    <string name="first_question">Which of the following sprots are dog sports</string>
+    <string name="frisbee">Frisbee</string>
+    <string name="football">Football</string>
+    <string name="agility">Agility</string>
+    <string name="tenis">Tennis</string>
+    <string name="second_question">Is the dog sweating?</string>
+    <string name="no">No</string>
+    <string name="yes_under_the_armpits">Yes, under the armpits</string>
+    <string name="yes_on_the_bottom_of_the_feet">Yes, on the bottom of the feet</string>
+    <string name="third_question">Whether boardercolie is a:</string>
+    <string name="watchdog">Watchdog</string>
+    <string name="shepherd_dog">Shepherd dog</string>
+    <string name="guard_dog">Guard dog</string>
+    <string name="just_a_dog_lying_on_the_sofa">Just a dog lying on the sofa</string>
+    <string name="fourth_question">What is the body temperature of the dog (in Celsius degrees)</string>
+    <string name="submit_button">How good was I</string>
+    <string name="reset_button">Make it again</string>
+    <string name="well_done">Well done</string>
+    <string name="your_score">! Your score is</string>
+</resources>
